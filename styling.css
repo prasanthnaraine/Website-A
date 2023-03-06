@@ -19,6 +19,7 @@ body{
     justify-content: space-between;
     color: white !important;
     min-height: 60vh;
+    overflow: hidden;
 }
 
 .small-banner button{
@@ -118,9 +119,27 @@ body{
     }
 }
 
-@media (width <=1200px){
+@media (width <=1300px){
     .small-banner-2 img {
-        max-height:10rem ;
+        max-height:20rem ;
+        margin-top: 2rem;
+    }
+}
+
+@media (width <=900px){
+
+.small-banner-2{
+    padding: 5%;
+}
+    .small-banner-2 img {
+        max-height:15rem ;
+        margin-top: 2rem;
+    }
+}
+
+@media (width <=700px){
+    .small-banner-2{
+        padding: 0;
     }
 }
 
@@ -131,9 +150,16 @@ body{
 
     }
 
+.small-banner-2{
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
     .small-banner-2 img{
-        max-height: 15rem;
-        margin-top: -5rem;
+        max-height: 12rem;
+        margin-top: 0;
     }
 
     .small-banner-2{
