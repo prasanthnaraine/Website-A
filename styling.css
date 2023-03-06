@@ -118,7 +118,11 @@ body{
     }
 }
 
-
+@media (width <=1200px){
+    .small-banner-2 img {
+        max-height:10rem ;
+    }
+}
 
 @media (width <=500px) {
     .small-banner{
